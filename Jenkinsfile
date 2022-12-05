@@ -9,10 +9,8 @@ pipeline {
          stage('ask stage') {
               steps {
                  input('Do you want to proceed')
-              } 
-          
+              }
           }
-         
      }                                  
                                         
                                         
