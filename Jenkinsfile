@@ -1,12 +1,12 @@
 pipeline {
      agent any
      stages {
-         stage('build step') {
+         stage('stage one') {
               steps {
                  echo "Build stage is running"
               }
          }
-         stage('stage') {
+         stage('ask stage') {
               steps {
                  input('Do you want to proceed')
               }
