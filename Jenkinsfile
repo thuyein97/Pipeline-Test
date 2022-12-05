@@ -10,7 +10,15 @@ pipeline {
               steps {
                  input('Do you want to proceed')
               }
-         }     
+         }  
+          stage('Three'){
+               when {
+                    not{
+                              branch "main"
+               }
+               }
+          steps {
+                    echo "Hello"
          }
      }                                  
                                         
