@@ -19,6 +19,7 @@ pipeline {
                }
           steps {
                     echo "Hello"
+          }
          }
      }                                  
                                         
