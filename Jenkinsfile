@@ -11,7 +11,12 @@ pipeline {
                  input('Do you want to proceed')
               }
           }
+          stage('stage three') {
+               steps {
+                    sh 'python --version'
+              }
+          }     
      }                                  
-                                        
+}                                        
                                         
                                         
