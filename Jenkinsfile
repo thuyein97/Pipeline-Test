@@ -10,12 +10,7 @@ pipeline {
               steps {
                  input('Do you want to proceed')
               }
-          }
-          stage('stage three') {
-               steps {
-                  echo 'python --version'
-              }
-          }     
+          }   
      }                                  
 }                                        
                                         
